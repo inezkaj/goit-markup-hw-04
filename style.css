@@ -1,0 +1,342 @@
+html {
+  box-sizing: border-box;
+}
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --transition: 250sm cubic-bezier(0.4, 0, 0.2, 1);
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--slate);
+  background-color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--slate);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
+}
+.logo {
+  color: var(--navyblue);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  font-family: "Raleway";
+  letter-spacing: 0.54px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+.logo-item {
+  color: var(--iris);
+}
+.address-setup {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: auto;
+  display: flex;
+  gap: 40px;
+}
+.menu-item {
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.linkaddress {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.linkaddress2 {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-right: 0px;
+}
+.logo:hover,
+.logo:focus,
+.logo-item:hover,
+.logo-item:focus,
+.logo2:hover,
+.logo2:focus,
+.menu-item:hover,
+.menu-item:focus,
+.linkaddress:hover,
+.linkaddress:focus,
+.linkaddress2:hover,
+.linkaddress2:focus {
+  color: var(--ocean);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.background-item {
+  background-color: var(--navyblue);
+  text-align: center;
+  padding: 188px 0;
+}
+.backgroundteam-item {
+  background: var(--cloud);
+}
+.name-item {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  width: 496px;
+  font-family: Roboto;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.button-order {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--iris);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.list-item {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.list1-item {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.list2-item {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding-bottom: 16px;
+}
+.title-item {
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.list-description {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  font-family: Roboto;
+  letter-spacing: 0.32px;
+}
+.list-description1 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+.list-description2 {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: left;
+}
+
+.background-footer {
+  background: var(--navyblue);
+  padding: 100px o;
+}
+.logo2 {
+  color: var(--cloud);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  font-family: "Raleway";
+  display: block;
+  margin-bottom: 17px;
+}
+.footer-item {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+.button-list {
+  color: var(--iris);
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--cloud);
+  font-family: inherit;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
+}
+.button-order:hover,
+.button-order:focus {
+  background: var(--ocean);
+}
+.button-list:hover,
+.button-list:focus {
+  color: #fff;
+  background: var(--ocean);
+}
+.portfolio-background {
+  background: #fff;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.header-setup {
+  display: flex;
+  text-align: center;
+}
+
+.nav-setup {
+  display: flex;
+}
+.nav-setup li {
+  margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-margin {
+  margin-left: 76px;
+}
+.nav-setup li:last-child {
+  margin-right: 0px;
+}
+.list-doing-setup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 120px;
+  gap: 24px;
+}
+.list-workers-setup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.list-setup {
+  display: flex;
+  flex-direction: row;
+}
+.list-setup li {
+  width: 264px;
+  margin-right: 24px;
+}
+.list-setup li:last-child,
+.list-doing-setup:last-child,
+.buttonlist-setup li:last-child {
+  margin-right: 0px;
+}
+.table-workers {
+  width: 264px;
+  background: white;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.picture-description {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.table-activities {
+  gap: 8px;
+  background: white;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+
+.listofpicture-setup {
+  margin-top: 72px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.table-activities {
+  background: white;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.listofpicture-setup li {
+  flex-basis: auto;
+}
+
+.buttonlist-setup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 96px;
+}
+.buttonlist-setup li {
+  margin-right: 24px;
+}
