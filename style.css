@@ -11,6 +11,7 @@ html {
   --ocean: #404bbf;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
+  --lightslate: #8e8f99;
 }
 
 body {
@@ -106,9 +107,12 @@ ul {
   background: url("./img/people-office.jpg"), rgba(46, 47, 66, 0.7);
   background-size: cover;
   background-blend-mode: multiply;
-  flex-shrink: 0;
+  background-repeat: no-repeat;
   text-align: center;
   padding: 188px 0;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 .backgroundteam-item {
   background: var(--cloud);
@@ -141,6 +145,16 @@ ul {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+.icons-setup {
+  border-radius: 4px;
+  background: var(--cloud);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 .list-item {
   color: var(--navyblue);
   font-size: 20px;
@@ -184,7 +198,6 @@ ul {
   text-align: left;
   font-family: Roboto;
   letter-spacing: 0.32px;
-  padding-bottom: 8px;
 }
 .list-description1 {
   font-weight: 400;
@@ -371,6 +384,28 @@ ul {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.customer-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.customer-list li {
+  border-radius: 4px;
+  border: 1px solid var(--lightslate);
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #8e8f99;
+}
+.customer-list li:hover,
+.customer-list li:focus {
+  fill: var(--ocean);
+  border: 1px solid var(--ocean);
+}
+
 .media-setup {
   display: flex;
   justify-content: center;
@@ -378,6 +413,47 @@ ul {
 .clients-setup {
   display: inline-flex;
   align-items: flex-start;
+}
+.media-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.media-icons-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: center;
+}
+.media-icons li {
+  background: var(--iris);
+  padding: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.media-icons li:hover,
+.media-icons li:focus {
+  background: var(--ocean);
+}
+.media-icons-footer li {
+  background: var(--iris);
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.media-icons-footer li:hover,
+.media-icons-footer li:focus {
+  background: #31d0aa;
+}
+
+.icons {
+  background-image: url(#icon-Ellipse);
 }
 .social-media {
   margin-left: 120px;
